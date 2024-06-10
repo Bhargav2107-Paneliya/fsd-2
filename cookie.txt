@@ -1,0 +1,6 @@
+To add cookie:-res.cookie("name",value)
+To displaycookie:- req.cookie
+To set timelimit:- res.cookie(name,value,{maxAge:30000})    
+                                        or
+                                        {expires:new Date(Date.now()+1000)}
+To delete cookie:- res.clearCookie("cookiename")
